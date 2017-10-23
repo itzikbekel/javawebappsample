@@ -11,9 +11,9 @@ import java.util.Date;
 public class CalculatorService {
     @GET
     @Path("ping")
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.TEXT_HTML)
     public String ping() {
-        return System.out.println("\u001B31;1mhello world!");
+        return Response.status(200).entity("<html> " + "<title>" + "Hello HTML Response" + "</title><body><b>"+"</b></body></html>").build();;
     }
 
     @GET
