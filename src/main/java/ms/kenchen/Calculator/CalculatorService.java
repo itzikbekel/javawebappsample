@@ -14,7 +14,7 @@ public class CalculatorService {
     @Produces(MediaType.TEXT_HTML)
     public String ping() {
       
- return ("<html> " + "<header>" + "<title>This is title</title>" + "</header><P>" + "<body style='background-color:powderblue;'>"+"<font size='18' color='blue'>PROD = Go Open-Source Web Site!</font></p><font size='8' color='blue'>http://goossweb.azurewebsites.net</font>+ "</html>");
+  return ("<html> " + "<header>" + "<title>This is title</title>" + "</header>" + "<P>" + "<body style='background-color:powderblue';>" + "<font size='18' color='blue'>" + "PROD = Go Open-Source Web Site!" + "</font></p><font size='8' color='blue'>"+ "http://goossweb.azurewebsites.net" + "</font>" + "</html>");
 
     }
 
