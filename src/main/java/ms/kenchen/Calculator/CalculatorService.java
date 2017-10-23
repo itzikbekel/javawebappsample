@@ -13,7 +13,7 @@ public class CalculatorService {
     @Path("ping")
     @Produces(MediaType.TEXT_PLAIN)
     public String ping() {
-        return "https://www.google.com";
+        return System.out.println("\u001B31;1mhello world!");
     }
 
     @GET
