@@ -10,10 +10,10 @@ import java.util.Date;
 @Path("/calculator")
 public class CalculatorService {
     @GET
-    @Path("ping")
+    @Path("Sample")
     @Produces(MediaType.TEXT_PLAIN)
-    public String ping() {
-        return "Welcome to Java Web App!!! This is updated!\n" + new Date().toString();
+    public String Sample() {
+        return "https://www.google.com";
     }
 
     @GET
