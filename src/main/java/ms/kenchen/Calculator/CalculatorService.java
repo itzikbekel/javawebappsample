@@ -13,7 +13,7 @@ public class CalculatorService {
     @Path("ping")
     @Produces(MediaType.TEXT_HTML)
     public String ping() {
-        return ("<html> " + "<title>" + "Hello HTML Response" + "</title><body><b>"+"</b></body></html>").build();
+        return ("<html> " + "<title>" + "Hello HTML Response" + "</title><body><b>"+"</b></body></html>");
     }
 
     @GET
